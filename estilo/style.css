@@ -1,5 +1,15 @@
 @charset "UTF-8"
 
+body {
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
 header {
     background-color: black;
     color: white;
@@ -9,7 +19,7 @@ header {
 
 }
 
-section.imagem > p {
+section.imagem>p {
     background-color: rgba(0, 0, 0, 0.445);
     display: inline-block;
     padding: 5px;
@@ -21,7 +31,7 @@ a {
     color: white;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -31,16 +41,16 @@ header>h1 {
 }
 
 header>p {
-    font-size:20px;
+    font-size: 20px;
 }
 
 section#img01 {
-    background-image: url(Imagens/imagens/background001.jpg);
+    background-image: url(../Imagens/background001.jpg);
     background-position: right center;
 }
 
 section#img02 {
-    background-image: url(Imagens/imagens/background002.jpg);
+    background-image: url(../Imagens/background002.jpg);
     background-position: right center;
 }
 
@@ -61,10 +71,6 @@ section {
     font-size: 3.5vw;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 footer {
     background-color: black;
